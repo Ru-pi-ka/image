@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.background{
+    background:url(../img/img1.jpg);
+    width: 100%;
+    top:0;
+    left:0;
+     background-size: cover;
+    min-height: 30rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#header .overlay{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height:30rem;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7));
+}
+ #header .nav-link{
+     color:white !important;
+ }
+.items h2::after{
+    content:'';
+    display: flex;
+    margin:5px auto 20px auto;
+    height: 2px;
+    width: 60px;
+    background-color:rgb(37, 206, 150);
+}
+.cards h4::after{
+    content:'';
+    display: flex;
+    margin:5px auto 20px auto;
+    height: 2px;
+    width: 60px;
+    background-color:rgb(37, 206, 150);
+}
+.background-text h2::after{
+    content:'';
+    display: flex;
+    margin:5px auto 20px auto;
+    height: 2px;
+    width: 60px;
+    background-color:rgb(37, 206, 150);
+}
+.gallery h2::after{
+    content:'';
+    display: flex;
+    margin:5px auto 20px auto;
+    height: 4px;
+    width: 60px;
+    background-color:rgb(35, 54, 47);
+}
+
+
+#card-bg-color{
+    background-color: rgb(139, 155, 172) !important;
+}
+
+.background-text{
+    margin-top: 40px;
+}
+#contact{
+    background-image: url(../img/img3.jpg);
+     height: 350px;
+    }
+#btn{
+    background-color: rgb(5, 167, 145) !important;
+    
+}
+#cd{
+    color:rgb(37, 206, 150) !important;
+}
+#abc{
+    background-color: rgb(37, 134, 110) !important;
+}
+.carousel-item{ position: relative !important; }
+.black-overlay{ position: absolute; position: absolute;
+    top: 0;
+    left: 0px;
+    width:100%;
+    height:25rem;
+    background: rgba(31, 50, 58, 0.5);
+}
+
+.carousel-item{ position: relative !important; }
+.blue-overlay{ position: absolute; position: absolute;
+    top: 0;
+    left: 0px;
+    bottom:0px;
+    width:100%;
+    height:30rem ;
+     background: rgba(58, 74, 82, 0.5);
+}
+.carousel-item{ position: relative !important; }
+.pink-overlay{ position: absolute; position: absolute;
+    top: 0;
+    left: 0px;
+    bottom:0px;
+    height: 375px;
+    width:250px;
+    background: linear-gradient(rgba(228, 83, 163, 0.5),rgba(146, 115, 221, 0.7),rgba(228,83,163,0.5));
+}
+.carousel-item{ position: relative !important; }
+.red-overlay{ position: absolute; position: absolute;
+    top: 0;
+    left: 0px;
+    bottom:0px;
+    width:100%;
+    height:19rem;
+     background: linear-gradient(rgba(228, 83, 163, 0.5),rgba(146, 115, 221, 0.7),rgba(228,83,163,0.5));
+}
+#carrom{
+    background-color: rgb(138, 138, 156) !important;
+}
+.map-text{
+    margin-top: -4rem;
+}
+
+
+
